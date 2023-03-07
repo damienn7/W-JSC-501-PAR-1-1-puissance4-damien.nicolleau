@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div > .container-fluid{
+    height: 100%;
+}
+
+body{
+    padding: 0;
+}
+
+div > .col,div > .col-1,div > .col-2{
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    margin: 0.35rem;
+    background-color: #fff;
+    border: 1px solid blue;
+}
+
+div > .row{
+    margin: auto;
+}
