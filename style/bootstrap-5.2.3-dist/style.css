@@ -6,18 +6,23 @@
     margin: 0;
 }
 
+body{
+    padding: 10%;
+}
+
 div > .container-fluid{
-    height: 100%;
+    height: auto;
 }
 
 body{
     padding: 0;
+    margin: 0;
 }
 
 div > .col,div > .col-1,div > .col-2{
-    border-radius: 25px;
-    height: 50px;
-    width: 50px;
+    border-radius: 50%;
+    /* height: 60px; */
+    width: auto;
     margin: 0.35rem;
     background-color: #fff;
     border: 1px solid blue;

@@ -4,7 +4,7 @@ let options=[];
 
 
 
-let test = new puissance(options = [{ player_one: { name: "damien", color: "blue" }, player_two: { name: "charline", color: "yellow" }, grid: { columns: 12, rows: 12 } }], document);
+let test = new puissance(options = [{ player_one: { name: "damien", color: "blue" }, player_two: { name: "charline", color: "yellow" }, grid: { columns: 7, rows: 6 } }], document);
 test.checkOptions();
 
 // let options_test = [{player_one: { name: "toto", color: "yellow" }, player_two: { name: "tata", color: "red" }, grid: { columns: 7, rows: 6 }} ];
